@@ -7,6 +7,6 @@ Authentication without pulling your hair out or having to use hacks (especially 
  - The `<Session />` form submits an HTTP Post to Node.
  - Valid user details return a token which is saved as a cookie.
  - Node redirects to the index which loads an `application.ejs` template and <Application /> app.
- - Have a cup of tea.
+ - We are now authorised and have access to the `<Application/>` SPA.
 
-This architecture decouples your authentication system from your application. They could even be seperate applications on different sub-domains.
+This architecture decouples your authentication system from your application system. They could even be seperate apps on different sub-domains.
